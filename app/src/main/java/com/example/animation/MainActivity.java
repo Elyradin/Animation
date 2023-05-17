@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView imgView = findViewById(R.id.img);
         Button btn = findViewById(R.id.btn_start);
 
-        mAnimator = ObjectAnimator.ofFloat(imgView, "y", 1200);
+        mAnimator = ObjectAnimator.ofFloat(imgView, "rotation", 1200);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
